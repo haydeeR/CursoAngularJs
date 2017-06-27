@@ -1,0 +1,15 @@
+<form [formGroup]="formulario" (ngSubmit)="enviarSubmit(formulario)" >
+  <label>Nombre: </label>
+  <input type="texto" 
+  name="nombre" id="nombre" 
+  formControlName="nombre" >
+  <br/>
+  <label>Correo: </label>
+  <input type="text" name="email"
+   id="email" formControlName="email">
+  <button type="submit" [disabled]="!formulario.valid">Enviar</button>
+</form>
+
+<div *ngIf="nombre">
+  {{nombre}}  {{email}}
+</div>

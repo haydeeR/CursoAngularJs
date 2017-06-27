@@ -1,0 +1,6 @@
+<p>Estamos en nosotros</p>
+<ul>
+    <li *ngFor="let empleado of empleados">
+        <a (click)="clickEmpleado(empleado.id)">{{empleado.name}}</a>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+<p>Estamos en inicio</p>
+
+<div>
+    Y sabemos que 
+    <input type="number" [(ngModel)]="temp">
+    °C es igual a
+    {{temp | grados}}
+</div>
+<button (click)="guardaTemp()">Guarda</button>
+<button (click)="obtenTemp()">obtenTemp</button>

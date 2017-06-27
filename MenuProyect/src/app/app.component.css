@@ -1,0 +1,4 @@
+ul{width:350px; height: 30px;}
+li{width:100p x; height:30px; float:left; margin-right: 5px; list-style: none; border-left: 1px black solid;border-top: 1px black solid;border-right: 1px black solid; border-top-left-radius: 10px; border-top-right-radius: 10px; text-align: center; line-height: 30px; }
+li a{ text-decoration: none; color: black; text-align:center; display: block;}
+.active{background-color: #Af34d2; opacity: 0.5}
